@@ -2,17 +2,100 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Marcos Pinheiro | Portfólio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfólio de Marcos Pinheiro. Projetos de análise de dados com Python, SQL, PostgreSQL e Power BI.">
+  <title>Marcos Pinheiro | Portfólio de Dados</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body style="background:#101827; color:white; font-family:Arial; padding:50px;">
+<body>
+  <header class="topo">
+    <a class="logo" href="#inicio">Marcos<span>Pinheiro</span></a>
+    <nav aria-label="Navegação principal">
+      <a href="#sobre">Sobre</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
 
-    <h1>Marcos Pinheiro</h1>
+  <main>
+    <section id="inicio" class="hero">
+      <p class="etiqueta">PORTFÓLIO PROFISSIONAL</p>
+      <h1>Olá, sou <span>Marcos Pinheiro.</span></h1>
+      <h2>Análise de Dados | Python | SQL | Power BI</h2>
+      <p>Desenvolvo projetos que transformam dados em
+      informações úteis para apoiar decisões.</p>
+      <a class="botao" href="#projetos">Conhecer meus projetos</a>
+    </section>
 
-    <h2>Meu portfólio está funcionando!</h2>
+    <section id="sobre">
+      <h2>Sobre mim</h2>
+      <p>Estou desenvolvendo minha trajetória na área de
+      análise de dados, trabalhando com bancos de dados,
+      consultas SQL, análise exploratória em Python e
+      visualização de informações no Power BI.</p>
+    </section>
 
-    <p>Python | PostgreSQL | SQL | Power BI</p>
+    <section id="habilidades">
+      <h2>Tecnologias e ferramentas</h2>
+      <div class="tags">
+        <span>Python</span>
+        <span>SQL</span>
+        <span>PostgreSQL</span>
+        <span>Pandas</span>
+        <span>Matplotlib</span>
+        <span>Power BI</span>
+        <span>Git e GitHub</span>
+      </div>
+    </section>
 
+    <section id="projetos">
+      <h2>Meus projetos</h2>
+
+      <article class="projeto">
+        <img src="imagens/dashboard_vendas.png"
+             alt="Dashboard de análise de vendas no Power BI"
+             loading="lazy">
+
+        <div>
+          <p class="etiqueta">PROJETO 01</p>
+          <h3>Análise de Vendas</h3>
+          <p>Projeto de análise comercial com PostgreSQL,
+          Python e Power BI. Inclui consultas SQL,
+          indicadores de desempenho e visualizações.</p>
+
+          <div class="indicadores">
+            <div><strong>R$ 22.410</strong><small>Faturamento</small></div>
+            <div><strong>41</strong><small>Unidades</small></div>
+            <div><strong>12</strong><small>Vendas</small></div>
+          </div>
+
+          <p class="tecnologias">Python · PostgreSQL · Power BI</p>
+
+          <a class="link-projeto"
+             href="https://github.com/Marcostdah"
+             target="_blank" rel="noopener noreferrer">
+             Ver projetos no GitHub
+          </a>
+        </div>
+      </article>
+    </section>
+
+    <section id="contato">
+      <h2>Vamos conversar?</h2>
+      <p>Confira meus projetos e acompanhe meu trabalho.</p>
+      <div class="links-contato">
+        <a href="https://github.com/Marcostdah"
+           target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.instagram.com/marcostdah/"
+           target="_blank" rel="noopener noreferrer">Instagram</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Marcos Pinheiro · marcostdah.com.br</p>
+  </footer>
 </body>
 </html>
